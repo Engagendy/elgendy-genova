@@ -1,29 +1,48 @@
 # El Gendy Genova Kitchens & Windows (الجندي جينوفا للمطابخ والشبابيك)
 
-El Gendy Genova is a kitchens and windows manufacturer in Mansoura, Egypt. It designs, manufactures (in its own factory) and installs kitchens, windows, doors, glass and wall decor.
+> Kitchen and window manufacturer in Mansoura, Dakahlia, Egypt. Designs, manufactures in its own factory, and installs aluminum and wood kitchens, UPVC and aluminum windows and doors, aluminum shopfronts, tempered (securit) glass shower enclosures, and feature walls / TV units. Bilingual site: Arabic (primary) and English.
 
-## Core Services
+## Business details
 
-- Aluminum kitchens (مطابخ ألوميتال)
-- Wood kitchens: MDF, HPL, acrylic, poly-lac (مطابخ خشب)
-- UPVC windows and doors (شبابيك وأبواب UPVC)
-- Aluminum windows, balcony doors and shopfronts (شبابيك وواجهات ألوميتال)
-- Tempered (securit) glass shower enclosures (زجاج سيكوريت للشاور)
-- Feature walls and TV units (ديكورات حوائط وشاشات)
-
-## Useful Pages
-
-- Arabic homepage: https://engagendy.github.io/elgendy-genova/
-- English homepage: https://engagendy.github.io/elgendy-genova/en.html
-- Project gallery: https://engagendy.github.io/elgendy-genova/#works
-- Materials guide (Aluminum vs UPVC vs Wood): https://engagendy.github.io/elgendy-genova/#materials
-- Quote request: https://engagendy.github.io/elgendy-genova/#contact
-
-## Business Details
-
-- Showroom: end of Samia El-Gamal St., El-Sallab St., Mansoura, Egypt
-- Factory: behind the Central Security camp, Mansoura
+- Name: El Gendy Genova Kitchens & Windows — الجندي جينوفا للمطابخ والشبابيك (also known as El Gendy / الجندي للمطابخ والشبابيك)
+- Showroom: end of Samia El-Gamal St., El-Sallab St., Mansoura, Egypt (المنصورة — آخر شارع سامية الجمل، شارع السلاب)
+- Factory: behind the Central Security camp, Mansoura (خلف الأمن المركزي)
 - Phone / WhatsApp: +20 100 945 5453
 - Email: elgendykitchens@gmail.com
 - Facebook: https://www.facebook.com/atceg
 - Service area: Mansoura and Dakahlia governorate
+- Offers: free site visit and measurements, written warranty on manufacturing and installation
+
+## Services
+
+- [Aluminum Kitchens / مطابخ ألوميتال](https://engagendy.github.io/elgendy-genova/en/services/aluminum-kitchens/): Aluminum kitchens made and installed in Mansoura, Egypt: water- and termite-proof profiles, many infill panels and colors, practical fittings. Free site visit and clear quote from El Gendy Genova. Arabic: https://engagendy.github.io/elgendy-genova/services/aluminum-kitchens/
+- [Wood Kitchens / مطابخ خشب](https://engagendy.github.io/elgendy-genova/en/services/wood-kitchens/): Custom wood kitchens in Mansoura, Egypt: modern and classic designs in MDF, HPL, acrylic and poly-lac, high-gloss or matte, with corner carousels, smart drawers and professional installation. Arabic: https://engagendy.github.io/elgendy-genova/services/wood-kitchens/
+- [UPVC Windows & Doors / شبابيك وأبواب UPVC](https://engagendy.github.io/elgendy-genova/en/services/upvc-windows-doors/): UPVC windows and doors made and installed in Mansoura, Egypt: thermal and acoustic insulation, rust-free, double glazing, casement, sliding and tilt-and-turn, bathroom and entrance doors. Free site visit. Arabic: https://engagendy.github.io/elgendy-genova/services/upvc-windows-doors/
+- [Aluminum Windows & Facades / شبابيك وواجهات ألوميتال](https://engagendy.github.io/elgendy-genova/en/services/aluminum-windows-facades/): Aluminum sliding and hinged windows, balcony doors, shopfronts and glazing made and installed in Mansoura, Egypt. Slim, strong profiles in many powder-coat colors from El Gendy Genova. Arabic: https://engagendy.github.io/elgendy-genova/services/aluminum-windows-facades/
+- [Tempered Glass Showers / زجاج سيكوريت للشاور](https://engagendy.github.io/elgendy-genova/en/services/glass-showers/): Made-to-measure tempered (securit) glass shower enclosures in Mansoura, Egypt: hinged, sliding, corner and fixed walk-in panels, clear or frosted, with stainless steel fittings. Site visit and measurements included. Arabic: https://engagendy.github.io/elgendy-genova/services/glass-showers/
+- [Feature Walls & TV Units / ديكورات حوائط وشاشات](https://engagendy.github.io/elgendy-genova/en/services/wall-decor-tv-units/): Custom TV units and feature walls in Mansoura, Egypt: hidden LED lighting, shelving and storage, stone and wood cladding, hidden cables. Designed and built by El Gendy Genova. Arabic: https://engagendy.github.io/elgendy-genova/services/wall-decor-tv-units/
+
+## Guides
+
+- [Aluminum vs UPVC windows — complete comparison](https://engagendy.github.io/elgendy-genova/en/guide/aluminum-vs-upvc/): insulation, strength, looks, maintenance, price factors, and when to choose each. Arabic: https://engagendy.github.io/elgendy-genova/guide/aluminum-vs-upvc/
+
+## Other pages
+
+- [Home (Arabic)](https://engagendy.github.io/elgendy-genova/)
+- [Home (English)](https://engagendy.github.io/elgendy-genova/en/)
+- [Project gallery — 160+ real project photos](https://engagendy.github.io/elgendy-genova/en/gallery/) · Arabic: https://engagendy.github.io/elgendy-genova/gallery/
+
+## FAQ
+
+- Q: Do you do site visits and measurements?
+  A: Yes. We schedule a visit to take precise measurements and review the space before manufacturing. You can start by sending photos and rough sizes on WhatsApp.
+- Q: What is the difference between aluminum and UPVC windows?
+  A: UPVC offers better heat and sound insulation and never rusts, while aluminum offers slim, strong profiles and larger glass areas. We help you choose based on location and budget.
+- Q: How long does a kitchen or window project take?
+  A: It depends on project size and material. After the visit and design approval we give you a clear manufacturing and installation schedule and stick to it.
+- Q: Is there a warranty?
+  A: Yes, we provide a real warranty on manufacturing and installation depending on the product, with follow-up after handover.
+- Q: Do you work outside Mansoura?
+  A: We are based in Mansoura and serve Dakahlia governorate and nearby areas. Share your location and we will confirm.
+- Q: Can you build a design from a photo I saw?
+  A: Absolutely. Send the photo on WhatsApp and we will adapt it to your measurements and suggest the closest materials and colors.

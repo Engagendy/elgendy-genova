@@ -2,12 +2,128 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://engagendy.github.io/elgendy-genova/</loc>
-    <xhtml:link rel="alternate" hreflang="ar-eg" href="https://engagendy.github.io/elgendy-genova/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://engagendy.github.io/elgendy-genova/en.html"/>
+    <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="ar-EG" href="https://engagendy.github.io/elgendy-genova/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://engagendy.github.io/elgendy-genova/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://engagendy.github.io/elgendy-genova/"/>
   </url>
   <url>
-    <loc>https://engagendy.github.io/elgendy-genova/en.html</loc>
-    <xhtml:link rel="alternate" hreflang="ar-eg" href="https://engagendy.github.io/elgendy-genova/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://engagendy.github.io/elgendy-genova/en.html"/>
+    <loc>https://engagendy.github.io/elgendy-genova/en/</loc>
+    <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="ar-EG" href="https://engagendy.github.io/elgendy-genova/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://engagendy.github.io/elgendy-genova/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://engagendy.github.io/elgendy-genova/"/>
+  </url>
+  <url>
+    <loc>https://engagendy.github.io/elgendy-genova/gallery/</loc>
+    <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="ar-EG" href="https://engagendy.github.io/elgendy-genova/gallery/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://engagendy.github.io/elgendy-genova/en/gallery/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://engagendy.github.io/elgendy-genova/gallery/"/>
+  </url>
+  <url>
+    <loc>https://engagendy.github.io/elgendy-genova/en/gallery/</loc>
+    <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="ar-EG" href="https://engagendy.github.io/elgendy-genova/gallery/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://engagendy.github.io/elgendy-genova/en/gallery/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://engagendy.github.io/elgendy-genova/gallery/"/>
+  </url>
+  <url>
+    <loc>https://engagendy.github.io/elgendy-genova/guide/aluminum-vs-upvc/</loc>
+    <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="ar-EG" href="https://engagendy.github.io/elgendy-genova/guide/aluminum-vs-upvc/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://engagendy.github.io/elgendy-genova/en/guide/aluminum-vs-upvc/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://engagendy.github.io/elgendy-genova/guide/aluminum-vs-upvc/"/>
+  </url>
+  <url>
+    <loc>https://engagendy.github.io/elgendy-genova/en/guide/aluminum-vs-upvc/</loc>
+    <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="ar-EG" href="https://engagendy.github.io/elgendy-genova/guide/aluminum-vs-upvc/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://engagendy.github.io/elgendy-genova/en/guide/aluminum-vs-upvc/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://engagendy.github.io/elgendy-genova/guide/aluminum-vs-upvc/"/>
+  </url>
+  <url>
+    <loc>https://engagendy.github.io/elgendy-genova/services/aluminum-kitchens/</loc>
+    <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="ar-EG" href="https://engagendy.github.io/elgendy-genova/services/aluminum-kitchens/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://engagendy.github.io/elgendy-genova/en/services/aluminum-kitchens/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://engagendy.github.io/elgendy-genova/services/aluminum-kitchens/"/>
+  </url>
+  <url>
+    <loc>https://engagendy.github.io/elgendy-genova/en/services/aluminum-kitchens/</loc>
+    <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="ar-EG" href="https://engagendy.github.io/elgendy-genova/services/aluminum-kitchens/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://engagendy.github.io/elgendy-genova/en/services/aluminum-kitchens/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://engagendy.github.io/elgendy-genova/services/aluminum-kitchens/"/>
+  </url>
+  <url>
+    <loc>https://engagendy.github.io/elgendy-genova/services/wood-kitchens/</loc>
+    <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="ar-EG" href="https://engagendy.github.io/elgendy-genova/services/wood-kitchens/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://engagendy.github.io/elgendy-genova/en/services/wood-kitchens/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://engagendy.github.io/elgendy-genova/services/wood-kitchens/"/>
+  </url>
+  <url>
+    <loc>https://engagendy.github.io/elgendy-genova/en/services/wood-kitchens/</loc>
+    <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="ar-EG" href="https://engagendy.github.io/elgendy-genova/services/wood-kitchens/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://engagendy.github.io/elgendy-genova/en/services/wood-kitchens/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://engagendy.github.io/elgendy-genova/services/wood-kitchens/"/>
+  </url>
+  <url>
+    <loc>https://engagendy.github.io/elgendy-genova/services/upvc-windows-doors/</loc>
+    <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="ar-EG" href="https://engagendy.github.io/elgendy-genova/services/upvc-windows-doors/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://engagendy.github.io/elgendy-genova/en/services/upvc-windows-doors/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://engagendy.github.io/elgendy-genova/services/upvc-windows-doors/"/>
+  </url>
+  <url>
+    <loc>https://engagendy.github.io/elgendy-genova/en/services/upvc-windows-doors/</loc>
+    <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="ar-EG" href="https://engagendy.github.io/elgendy-genova/services/upvc-windows-doors/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://engagendy.github.io/elgendy-genova/en/services/upvc-windows-doors/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://engagendy.github.io/elgendy-genova/services/upvc-windows-doors/"/>
+  </url>
+  <url>
+    <loc>https://engagendy.github.io/elgendy-genova/services/aluminum-windows-facades/</loc>
+    <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="ar-EG" href="https://engagendy.github.io/elgendy-genova/services/aluminum-windows-facades/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://engagendy.github.io/elgendy-genova/en/services/aluminum-windows-facades/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://engagendy.github.io/elgendy-genova/services/aluminum-windows-facades/"/>
+  </url>
+  <url>
+    <loc>https://engagendy.github.io/elgendy-genova/en/services/aluminum-windows-facades/</loc>
+    <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="ar-EG" href="https://engagendy.github.io/elgendy-genova/services/aluminum-windows-facades/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://engagendy.github.io/elgendy-genova/en/services/aluminum-windows-facades/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://engagendy.github.io/elgendy-genova/services/aluminum-windows-facades/"/>
+  </url>
+  <url>
+    <loc>https://engagendy.github.io/elgendy-genova/services/glass-showers/</loc>
+    <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="ar-EG" href="https://engagendy.github.io/elgendy-genova/services/glass-showers/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://engagendy.github.io/elgendy-genova/en/services/glass-showers/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://engagendy.github.io/elgendy-genova/services/glass-showers/"/>
+  </url>
+  <url>
+    <loc>https://engagendy.github.io/elgendy-genova/en/services/glass-showers/</loc>
+    <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="ar-EG" href="https://engagendy.github.io/elgendy-genova/services/glass-showers/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://engagendy.github.io/elgendy-genova/en/services/glass-showers/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://engagendy.github.io/elgendy-genova/services/glass-showers/"/>
+  </url>
+  <url>
+    <loc>https://engagendy.github.io/elgendy-genova/services/wall-decor-tv-units/</loc>
+    <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="ar-EG" href="https://engagendy.github.io/elgendy-genova/services/wall-decor-tv-units/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://engagendy.github.io/elgendy-genova/en/services/wall-decor-tv-units/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://engagendy.github.io/elgendy-genova/services/wall-decor-tv-units/"/>
+  </url>
+  <url>
+    <loc>https://engagendy.github.io/elgendy-genova/en/services/wall-decor-tv-units/</loc>
+    <lastmod>2026-10-06</lastmod>
+    <xhtml:link rel="alternate" hreflang="ar-EG" href="https://engagendy.github.io/elgendy-genova/services/wall-decor-tv-units/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://engagendy.github.io/elgendy-genova/en/services/wall-decor-tv-units/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://engagendy.github.io/elgendy-genova/services/wall-decor-tv-units/"/>
   </url>
 </urlset>
