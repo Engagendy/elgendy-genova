@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://engagendy.github.io/elgendy-genova/sitemap.xml
