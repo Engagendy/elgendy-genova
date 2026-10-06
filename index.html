@@ -20,7 +20,10 @@
   <meta name="twitter:title" content="الجندي جينوفا للمطابخ والشبابيك">
   <meta name="twitter:description" content="مطابخ وشبابيك ألوميتال و UPVC، زجاج سيكوريت وديكورات — تصنيع وتركيب في المنصورة.">
   <meta name="twitter:image" content="https://engagendy.github.io/elgendy-genova/assets/img/brand/og-cover.jpg">
-  <meta name="theme-color" content="#0e0d0b">
+  <meta name="theme-color" content="#faf6ef">
+  <script>
+    if (localStorage.getItem('elgendy-theme') === 'dark') document.documentElement.dataset.theme = 'dark';
+  </script>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="assets/img/brand/logo-160.png">
   <link rel="alternate" type="text/plain" href="llms.txt" title="LLMs.txt">
@@ -31,6 +34,37 @@
   <noscript><link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@500;600;700&amp;family=Readex+Pro:wght@300;400;500;600&amp;family=Playfair+Display:wght@500;600;700&amp;display=swap" rel="stylesheet"></noscript>
   <style>
     :root {
+      color-scheme: light;
+      --bg: #faf6ef;
+      --bg-2: #f2ebde;
+      --panel: #ffffff;
+      --line: rgba(156, 122, 60, .28);
+      --line-soft: rgba(27, 24, 19, .1);
+      --gold: #a8823f;
+      --gold-2: #8f6d2f;
+      --gold-deep: #7a5c26;
+      --text: #1d1a15;
+      --muted: #6b6253;
+      --ivory: #efe5d3;
+      --ink: #1b1813;
+      --surface: rgba(27, 24, 19, .025);
+      --field-bg: #ffffff;
+      --header-bg: rgba(250, 246, 239, .9);
+      --menu-bg: rgba(250, 246, 239, .98);
+      --glow: rgba(212, 175, 106, .22);
+      --shadow-strong: rgba(90, 66, 24, .16);
+      --quote-bg: linear-gradient(160deg, #ffffff, #f6eee0);
+      --footer-bg: #f1e9dc;
+      --copy: #8a806f;
+      --cta-fade: linear-gradient(100deg, rgba(250, 246, 239, .97) 32%, rgba(250, 246, 239, .55));
+      --radius: 18px;
+      --container: 1220px;
+      --head: "El Messiri", "Readex Pro", system-ui, sans-serif;
+      --body: "Readex Pro", system-ui, sans-serif;
+    }
+
+    html[data-theme="dark"] {
+      color-scheme: dark;
       --bg: #0e0d0b;
       --bg-2: #16140f;
       --panel: #1d1a14;
@@ -42,11 +76,31 @@
       --text: #f4efe6;
       --muted: #b4ab9b;
       --ivory: #f6f1e7;
-      --ink: #1b1813;
-      --radius: 18px;
-      --container: 1220px;
-      --head: "El Messiri", "Readex Pro", system-ui, sans-serif;
-      --body: "Readex Pro", system-ui, sans-serif;
+      --surface: rgba(255, 255, 255, .02);
+      --field-bg: rgba(255, 255, 255, .04);
+      --header-bg: rgba(14, 13, 11, .86);
+      --menu-bg: rgba(14, 13, 11, .97);
+      --glow: rgba(212, 175, 106, .14);
+      --shadow-strong: rgba(0, 0, 0, .45);
+      --quote-bg: linear-gradient(160deg, #221e16, #14120e);
+      --footer-bg: #0a0907;
+      --copy: #7d7567;
+      --cta-fade: linear-gradient(100deg, rgba(14, 13, 11, .96) 30%, rgba(14, 13, 11, .55));
+    }
+
+    /* Elements laid over photos stay dark in both themes. */
+    .service,
+    .reel,
+    .work,
+    .mosaic figcaption,
+    .lightbox {
+      --text: #f4efe6;
+      --muted: #b4ab9b;
+      --gold: #d4af6a;
+      --gold-2: #f1d79c;
+      --line: rgba(212, 175, 106, .18);
+      --line-soft: rgba(255, 255, 255, .08);
+      color: var(--text);
     }
 
     html[lang="en"] {
@@ -63,6 +117,7 @@
     }
 
     body {
+      transition: background .3s ease, color .3s ease;
       margin: 0;
       font-family: var(--body);
       font-weight: 300;
@@ -154,15 +209,15 @@
     }
 
     .btn-gold {
-      background: linear-gradient(120deg, var(--gold-2), var(--gold) 55%, var(--gold-deep));
+      background: linear-gradient(120deg, #f1d79c, #d4af6a 55%, #b8914b);
       color: #1a1408;
-      box-shadow: 0 12px 34px rgba(212, 175, 106, .25);
+      box-shadow: 0 12px 34px rgba(212, 175, 106, .3);
     }
 
     .btn-line {
       border-color: var(--line);
       color: var(--text);
-      background: rgba(255, 255, 255, .02);
+      background: var(--surface);
     }
 
     .btn-line:hover {
@@ -186,7 +241,7 @@
     }
 
     .header.is-solid {
-      background: rgba(14, 13, 11, .86);
+      background: var(--header-bg);
       backdrop-filter: blur(14px);
       border-color: var(--line-soft);
     }
@@ -283,7 +338,7 @@
     }
 
     .lang-switch button[aria-pressed="true"] {
-      background: var(--gold);
+      background: #d4af6a;
       color: #1a1408;
     }
 
@@ -291,6 +346,41 @@
       min-height: 42px;
       padding: 0 18px;
       font-size: .9rem;
+    }
+
+    .theme-toggle {
+      width: 42px;
+      height: 42px;
+      border-radius: 50%;
+      border: 1px solid var(--line);
+      background: var(--surface);
+      color: var(--gold);
+      cursor: pointer;
+      display: grid;
+      place-items: center;
+      transition: border-color .2s ease;
+    }
+
+    .theme-toggle:hover {
+      border-color: var(--gold);
+    }
+
+    .theme-toggle svg {
+      width: 19px;
+      height: 19px;
+      fill: none;
+      stroke: currentColor;
+      stroke-width: 1.7;
+      stroke-linecap: round;
+    }
+
+    .theme-toggle .moon,
+    html[data-theme="dark"] .theme-toggle .sun {
+      display: none;
+    }
+
+    html[data-theme="dark"] .theme-toggle .moon {
+      display: block;
     }
 
     .menu-toggle {
@@ -318,7 +408,7 @@
       padding: 150px 0 90px;
       overflow: hidden;
       background:
-        radial-gradient(900px 500px at 85% 0%, rgba(212, 175, 106, .14), transparent 60%),
+        radial-gradient(900px 500px at 85% 0%, var(--glow), transparent 60%),
         radial-gradient(700px 500px at 0% 100%, rgba(212, 175, 106, .07), transparent 60%),
         var(--bg);
     }
@@ -383,7 +473,7 @@
       border: 1px solid var(--line-soft);
       border-radius: 999px;
       color: var(--muted);
-      background: rgba(255, 255, 255, .02);
+      background: var(--surface);
     }
 
     .mosaic {
@@ -440,7 +530,7 @@
       border: 1px solid var(--line);
       display: grid;
       place-items: center;
-      box-shadow: 0 20px 60px rgba(0, 0, 0, .5);
+      box-shadow: 0 20px 60px var(--shadow-strong);
     }
 
     .seal svg {
@@ -748,12 +838,12 @@
 
     .filters button {
       border: 1px solid var(--line-soft);
-      background: rgba(255, 255, 255, .02);
       border-radius: 999px;
       padding: 9px 18px;
       cursor: pointer;
       font-size: .9rem;
       color: var(--muted);
+      background: var(--surface);
       transition: all .2s ease;
     }
 
@@ -971,7 +1061,7 @@
       padding: 20px;
       border: 1px solid var(--line-soft);
       border-radius: 14px;
-      background: rgba(255, 255, 255, .015);
+      background: var(--surface);
     }
 
     .why-item svg {
@@ -1002,9 +1092,9 @@
       top: 110px;
       padding: 38px;
       border-radius: 22px;
-      background: linear-gradient(160deg, #221e16, #14120e);
+      background: var(--quote-bg);
       border: 1px solid var(--line);
-      box-shadow: 0 40px 90px rgba(0, 0, 0, .45);
+      box-shadow: 0 40px 90px var(--shadow-strong);
     }
 
     .quote h2 {
@@ -1042,7 +1132,7 @@
     .field textarea {
       width: 100%;
       border: 1px solid var(--line-soft);
-      background: rgba(255, 255, 255, .04);
+      background: var(--field-bg);
       border-radius: 12px;
       padding: 13px 14px;
       outline: none;
@@ -1198,7 +1288,7 @@
       gap: 30px;
       align-items: center;
       background:
-        linear-gradient(100deg, rgba(14, 13, 11, .96) 30%, rgba(14, 13, 11, .55)),
+        var(--cta-fade),
         url("assets/img/work/modern-155.webp") center / cover;
       border: 1px solid var(--line);
     }
@@ -1222,7 +1312,7 @@
     .footer {
       border-top: 1px solid var(--line-soft);
       padding: 56px 0 30px;
-      background: #0a0907;
+      background: var(--footer-bg);
     }
 
     .footer-grid {
@@ -1268,7 +1358,7 @@
       gap: 20px;
       flex-wrap: wrap;
       font-size: .82rem;
-      color: #7d7567;
+      color: var(--copy);
     }
 
     /* Floating actions */
@@ -1300,7 +1390,7 @@
     }
 
     .float-actions .call {
-      background: var(--gold);
+      background: #d4af6a;
     }
 
     .float-actions svg {
@@ -1460,7 +1550,7 @@
         inset: 82px 0 auto;
         flex-direction: column;
         gap: 0;
-        background: rgba(14, 13, 11, .97);
+        background: var(--menu-bg);
         border-bottom: 1px solid var(--line-soft);
         padding: 10px 20px 20px;
         transform: translateY(-120%);
@@ -1483,7 +1573,7 @@
       }
 
       .header.menu-open {
-        background: rgba(14, 13, 11, .97);
+        background: var(--menu-bg);
       }
 
       .header.menu-open .menu-toggle span:nth-child(1) {
@@ -1663,6 +1753,11 @@
         display: none;
       }
 
+      .theme-toggle {
+        width: 40px;
+        height: 40px;
+      }
+
       .brand strong {
         font-size: 1.15rem;
       }
@@ -1691,6 +1786,16 @@
         top: auto;
         bottom: 10px;
         transform: none;
+      }
+    }
+
+    @media (max-width: 400px) {
+      .brand span span {
+        display: none;
+      }
+
+      .nav-actions {
+        gap: 6px;
       }
     }
   </style>
@@ -1772,6 +1877,10 @@
           <button type="button" data-lang="ar" aria-pressed="true">ع</button>
           <button type="button" data-lang="en" aria-pressed="false">EN</button>
         </div>
+        <button class="theme-toggle" type="button" id="themeToggle" aria-pressed="false" aria-label="الوضع الداكن" data-i18n-attr="aria-label:darkMode">
+          <svg class="sun" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 14.5A8.5 8.5 0 0 1 9.5 3.5a8.5 8.5 0 1 0 11 11z"/></svg>
+          <svg class="moon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2v2.2M12 19.8V22M4.9 4.9l1.6 1.6M17.5 17.5l1.6 1.6M2 12h2.2M19.8 12H22M4.9 19.1l1.6-1.6M17.5 6.5l1.6-1.6"/></svg>
+        </button>
         <a class="btn btn-line" href="tel:+201009455453" data-i18n="callNow">اتصل الآن</a>
         <a class="btn btn-gold js-whatsapp" href="https://wa.me/201009455453" target="_blank" rel="noopener" data-i18n="whatsapp">واتساب</a>
         <button class="menu-toggle" type="button" aria-label="القائمة" aria-expanded="false" aria-controls="navLinks" data-i18n-attr="aria-label:menu"><span></span><span></span><span></span></button>
@@ -2321,7 +2430,7 @@
         ctaTitle: 'مهما كانت المساحة صغيرة… هنستغل كل سنتيمتر', ctaLead: 'ابعت صورة المكان ومقاسات تقريبية، ونرجعلك بتصوّر مبدئي وعرض سعر.', ctaWa: 'ابعت على واتساب',
         footerAbout: 'مطابخ ألوميتال وخشب، شبابيك وأبواب UPVC وألوميتال، زجاج سيكوريت وديكورات حوائط — تصنيع وتركيب في المنصورة.',
         footerLinks: 'روابط', footerContact: 'تواصل', footerCity: 'المنصورة، الدقهلية، مصر', copyright: 'الجندي جينوفا للمطابخ والشبابيك',
-        close: 'إغلاق', prev: 'السابق', next: 'التالي', workBy: 'من أعمال الجندي'
+        darkMode: 'الوضع الداكن', close: 'إغلاق', prev: 'السابق', next: 'التالي', workBy: 'من أعمال الجندي'
       },
       en: {
         pageTitle: 'El Gendy Genova | Kitchens, Aluminum & UPVC Windows in Mansoura, Egypt',
@@ -2413,7 +2522,7 @@
         ctaTitle: 'No matter how small the space, we use every centimeter', ctaLead: 'Send a photo of the space and rough measurements, and we will get back to you with an initial concept and quote.', ctaWa: 'Send on WhatsApp',
         footerAbout: 'Aluminum and wood kitchens, UPVC and aluminum windows and doors, tempered glass and feature walls — built and installed in Mansoura.',
         footerLinks: 'Links', footerContact: 'Contact', footerCity: 'Mansoura, Dakahlia, Egypt', copyright: 'El Gendy Genova Kitchens & Windows',
-        close: 'Close', prev: 'Previous', next: 'Next', workBy: 'El Gendy project'
+        darkMode: 'Dark mode', close: 'Close', prev: 'Previous', next: 'Next', workBy: 'El Gendy project'
       }
     };
 
@@ -2551,6 +2660,19 @@
       renderWorks();
       if (document.getElementById('lightbox').classList.contains('is-open')) renderLightbox(false);
     }
+
+    // Theme (light default, dark optional)
+    const themeBtn = document.getElementById('themeToggle');
+    function setTheme(theme) {
+      const dark = theme === 'dark';
+      if (dark) document.documentElement.dataset.theme = 'dark';
+      else delete document.documentElement.dataset.theme;
+      themeBtn.setAttribute('aria-pressed', String(dark));
+      document.querySelector('meta[name="theme-color"]').setAttribute('content', dark ? '#0e0d0b' : '#faf6ef');
+      localStorage.setItem('elgendy-theme', dark ? 'dark' : 'light');
+    }
+    setTheme(document.documentElement.dataset.theme === 'dark' ? 'dark' : 'light');
+    themeBtn.addEventListener('click', () => setTheme(document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark'));
 
     // Header state + mobile menu
     const header = document.getElementById('header');
