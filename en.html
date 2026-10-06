@@ -444,6 +444,7 @@
     }
 
     .seal svg {
+      direction: ltr;
       position: absolute;
       inset: 8px;
       width: calc(100% - 16px);
@@ -1810,9 +1811,9 @@
             <figcaption data-i18n="mosaic3">شباك UPVC مقوّس</figcaption>
           </figure>
           <div class="seal">
-            <svg viewBox="0 0 120 120" aria-hidden="true">
+            <svg viewBox="0 0 120 120" aria-hidden="true" direction="ltr">
               <defs><path id="circle" d="M60,60 m-48,0 a48,48 0 1,1 96,0 a48,48 0 1,1 -96,0"></path></defs>
-              <text><textPath href="#circle">EL GENDY · GENOVA · MANSOURA · </textPath></text>
+              <text><textPath href="#circle" textLength="298" lengthAdjust="spacing">EL GENDY · GENOVA · MANSOURA · </textPath></text>
             </svg>
             <b>EG</b>
           </div>
@@ -2545,8 +2546,6 @@
       });
       document.querySelectorAll('[data-lang]').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.lang === lang)));
       document.querySelectorAll('.js-whatsapp').forEach((a) => { a.href = waUrl(dict.waMessage); });
-      document.getElementById('lbPrev').textContent = lang === 'ar' ? '›' : '‹';
-      document.getElementById('lbNext').textContent = lang === 'ar' ? '‹' : '›';
       localStorage.setItem('elgendy-lang', lang);
       renderFilters();
       renderWorks();
